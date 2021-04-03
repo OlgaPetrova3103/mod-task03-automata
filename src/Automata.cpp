@@ -28,11 +28,6 @@ string* Automata::etMenu()
 	return menu;
 }
 
-State Automata::getState()
-{
-	return state;
-}
-
 void Automata::choice(int ch) 
 {
 	if (state == ACCEPT)
