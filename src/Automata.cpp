@@ -28,7 +28,7 @@ string* Automata::etMenu()
 	return menu;
 }
 
-State Automata::get_state()
+State Automata::getState()
 {
 	return state;
 }
