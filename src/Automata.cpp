@@ -32,7 +32,7 @@ void Automata::choice(int ch)
 {
 	if (state == ACCEPT)
 	{
-        choice_p = ch;
+        this->choice_p = ch;
 		state = CHECK;
 	    check();
 	}
