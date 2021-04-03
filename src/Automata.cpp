@@ -76,6 +76,6 @@ void Automata::cook()
 void Automata::finish(int f)
 {
     state = WAIT;
-    cash = cash - prices[val - 1];
+    cash = cash - prices[f - 1];
 	choice_p = -1;
 }
